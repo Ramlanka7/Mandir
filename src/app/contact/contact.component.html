@@ -1,0 +1,60 @@
+﻿<div class="container">
+  <div class="card">
+    <div class="card-header">
+      Contact
+    </div>
+    <div class="card-block">
+      <blockquote class="card-blockquote">
+        <div class="row">
+          <div class="col">
+            <md-input-container class="maxWidth">
+              <input class="md-block" mdInput placeholder="Email" type="email"
+                     minlength="5" maxlength="50"
+                     required email>
+            </md-input-container>
+
+            <div>
+              <md-input-container class="maxWidth">
+                <input class="md-block" mdInput placeholder="Name" maxlength="25"
+                       required>
+              </md-input-container>
+            </div>
+            
+            <!--<div>
+              <md-input-container class="maxWidth">
+                <input mdInput (keypress)="keyPressNumericOnly($event)"
+                       placeholder="Phone Number" maxlength="13"
+                       [ngModel]="register.phoneNumber | phone"
+                       (ngModelChange)="register.phoneNumber=$event">
+              </md-input-container>
+            </div>-->
+
+            <div>
+              <md-input-container class="maxWidth">
+                <textarea mdInput placeholder="Message" style="height:100px"></textarea>
+              </md-input-container>
+            </div>
+
+            <div>
+              <button md-raised-button color="primary">Submit</button>
+              <button md-raised-button>Clear</button>
+            </div>
+          </div>
+
+          <div class="col">
+            <b>Mandiram Inc</b>
+            <br/>
+            123 Hello Avenue
+            <br/>
+            Allen, Texas 12345
+            <br/>
+            Phone: (123) 456-1234
+            <br/>
+            Email: Info@mandirams.com
+            <br/>
+          </div>
+        </div>
+      </blockquote>
+    </div>
+  </div>
+</div>
