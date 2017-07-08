@@ -1,3 +1,7 @@
 ﻿.navbar-brand {
   color: #fff;
 }
+
+.navbar-toggler {
+  background-color: #fff;
+}

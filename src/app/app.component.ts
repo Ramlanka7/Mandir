@@ -2,6 +2,7 @@
 import { MdButtonModule } from '@angular/material';
 import { DomSanitizer } from '@angular/platform-browser';
 import { MdIconRegistry } from '@angular/material';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-root',
